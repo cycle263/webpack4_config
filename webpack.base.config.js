@@ -20,30 +20,33 @@ module.exports = {
     hints: false 	// 关闭warning日志信息
   },
   module: {
-    rules: [
-      {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: {
-          presets: ['env', 'react', 'es2017']
-        }
-      },
-      {
-        test: /\.(less|css)$/,
-        use: ExtractTextPlugin.extract({
-          use: ['css-loader', 'less-loader'],
-          fallback: 'style-loader'
-        })
-      },
-      {
-        test: /\.(png|svg|jpg|gif)$/,
+    rules: [{
+      test: /\.(js|jsx)$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      options: {
+        presets: ['env', 'react', 'es2017']
+      }
+    }, {
+      test: /\.(less|css)$/,
+      use: ExtractTextPlugin.extract({
+        use: ['css-loader', 'less-loader'],
+        fallback: 'style-loader'
+      })
+    }, {
+      test: /\.(png|svg|jpg|gif)$/,
+      use: [{
         loader: 'file-loader',
         options: {
           name: 'images/[name].[hash:8].[ext]'
         }
-      },
-    ]
+      }, {
+        loader: 'file-loader',
+        options: {
+          name: 'images/[name].[hash:8].[ext]'
+        }
+      }]
+    }]
   },
   plugins: [
     new ExtractTextPlugin('[name]-style.[hash:6].css'),
