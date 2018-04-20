@@ -7,9 +7,6 @@ console.log('environment: ', env);
 
 module.exports = merge(baseConfig, {
 	mode: env,
-	devServer: {
-		contentBase: path.resolve(__dirname)
-	},
 	devtool: 'source-map',	// map模式
 	plugins: [
 		new CleanWebpackPlugin('dist')
