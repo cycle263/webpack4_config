@@ -19,6 +19,11 @@ module.exports = {
   performance: {
     hints: false 	// 关闭warning日志信息
   },
+  resolve: {
+    alias: {
+      imagesPath: path.resolve(__dirname, "src/assets/images/")
+    }
+  },
   module: {
     rules: [{
       test: /\.(js|jsx)$/,
@@ -36,13 +41,9 @@ module.exports = {
     }, {
       test: /\.(png|svg|jpg|gif)$/,
       use: [{
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
-          name: 'images/[name].[hash:8].[ext]'
-        }
-      }, {
-        loader: 'file-loader',
-        options: {
+          limit: 8192,
           name: 'images/[name].[hash:8].[ext]'
         }
       }]

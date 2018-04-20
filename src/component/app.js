@@ -1,6 +1,7 @@
 import React from 'react';
 import { base } from '../assets/datas/app.json';
-import map from '../assets/images/map.jpg'
+import map from 'imagesPath/map.jpg'; // images 为别名config中的alias
+import file from 'imagesPath/img.png';
 import './app.less';
 
 class App extends React.Component{
@@ -15,7 +16,7 @@ class App extends React.Component{
   render() {
     return (
       <div>
-        <div className="test">Hello, app!</div>
+        <div className="test">Hello, app!<img src={file} alt="file" /></div>
         <img src={map} alt="gif" />
         {this.generateList()}
       </div>
