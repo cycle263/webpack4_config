@@ -12,7 +12,6 @@ module.exports = merge(baseConfig, {
 	plugins: [
 		new CleanWebpackPlugin('dist'),
 		new webpack.DllReferencePlugin({
-			context: __dirname,
 			manifest: require('./vendors-manifest.json'),
 		}),
 	]
