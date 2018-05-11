@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const baseConfig = require("./webpack.base.config");
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const merge = require("webpack-merge");
@@ -9,6 +10,10 @@ module.exports = merge(baseConfig, {
 	mode: env,
 	devtool: 'source-map',	// map模式
 	plugins: [
-		new CleanWebpackPlugin('dist')
+		new CleanWebpackPlugin('dist'),
+		new webpack.DllReferencePlugin({
+			context: __dirname,
+			manifest: require('./vendors-manifest.json'),
+		}),
 	]
 });

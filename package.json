@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "WEBPACK_ENV=development webpack-dev-server --mode development --config ./webpack.dev.config.js",
+    "dev": "WEBPACK_ENV=development webpack-dev-server --mode development --config ./webpack.dev.config.js --hot",
+    "dll": "WEBPACK_ENV=development webpack --mode development --config ./webpack.dll.config.js",
     "build": "WEBPACK_ENV=production webpack --mode production --config ./webpack.config.js"
   },
   "author": "",
@@ -31,7 +32,6 @@
   },
   "dependencies": {
     "jquery": "^3.3.1",
-    "npm": "^5.8.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   }

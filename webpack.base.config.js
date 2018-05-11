@@ -7,12 +7,11 @@ const env = process.env.WEBPACK_ENV;
 
 module.exports = {
   entry: {
-    index: path.resolve(__dirname, 'src/index.js'),
-    vendors: ['react', 'react-dom', 'jquery']
+    index: path.resolve(__dirname, 'src/index.js')
   },
   output: {
-    filename: '[name].[chunkhash:6].js',
-    chunkFilename: '[name].[chunkhash].js',
+    filename: '[name].[hash:5].js',
+    chunkFilename: '[name].[hash:5].js',
     path: path.resolve(__dirname, 'dist')
   },
   mode: env,
@@ -44,17 +43,17 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 8192,
-          name: 'images/[name].[hash:8].[ext]'
+          name: 'images/[name].[hash:5].[ext]'
         }
       }]
     }]
   },
   plugins: [
-    new ExtractTextPlugin('[name]-style.[hash:6].css'),
+    new ExtractTextPlugin('[name]-style.[hash:5].css'),
     new HtmlWebpackPlugin({
       title: 'webpack4 入门教程',
       template: './index.html'
-    })
+    }), 
   ],
   optimization: {
     splitChunks: {
@@ -65,6 +64,7 @@ module.exports = {
           name: 'vendors'
         }
       }
-    }
+    },
+    minimize: true   // 压缩代码，替代optimize.UglifyJsPlugin
   }
 };
