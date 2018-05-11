@@ -1,13 +1,15 @@
 // webpack init
 const webpack = require('webpack');
 const path = require('path');
+const pkg = require('./package.json'); // 引入package.json
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const env = process.env.WEBPACK_ENV;
 
 module.exports = {
   entry: {
-    index: path.resolve(__dirname, 'src/index.js')
+    index: path.resolve(__dirname, 'src/index.js'),
+    vendors: Object.keys(pkg.dependencies)
   },
   output: {
     filename: '[name].[hash:5].js',
