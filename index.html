@@ -8,6 +8,11 @@
 </head>
 <body>
   <div id="react-content"></div>
-  <script src="./static/vendors.dll.js"></script>
+  <script>
+    document.write('<script src="static/webpack.assets.js?v=' + Math.random() + '"><\/script>');
+  </script>
+  <script>
+    document.write('<script src="static/' + window.WEBPACK_ASSETS['vendors'].js + '"><\/script>');
+  </script>
 </body>
 </html>

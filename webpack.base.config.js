@@ -55,7 +55,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'webpack4 入门教程',
       template: './index.html'
-    }), 
+    }),
   ],
   optimization: {
     splitChunks: {
