@@ -7,7 +7,9 @@ console.log('environment: ', env);
 
 module.exports = merge(baseConfig, {
   devServer: {
-    contentBase: path.resolve(__dirname)
+    contentBase: path.resolve(__dirname),
+    hot: true,
+    historyApiFallback: true
   },
   plugins: [
     new webpack.DllReferencePlugin({

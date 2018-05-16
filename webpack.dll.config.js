@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const AssetsPlugin = require('assets-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const pkg = require('./package.json'); // 引入package.json
 const env = process.env.WEBPACK_ENV;
 console.log('environment: ', env);
@@ -20,6 +21,7 @@ module.exports = {
       name: '[name]_lib_[hash:5]',
       context: __dirname
     }),
+    new CleanWebpackPlugin('static'),
     new AssetsPlugin({
       filename: 'static/webpack.assets.js',
       processOutput: assets => `window.WEBPACK_ASSETS = ${JSON.stringify(assets)}`

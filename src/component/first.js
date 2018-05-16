@@ -5,7 +5,7 @@ import map from 'imagesPath/map.jpg'; // images 为别名config中的alias
 import file from 'imagesPath/img.png';
 import './app.less';
 
-class App extends React.Component{
+class First extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -21,12 +21,11 @@ class App extends React.Component{
           <li><NavLink exact to="/" activeStyle={{ color: '#4dc060' }}>首页</NavLink></li>
           <li><NavLink to="/first" activeStyle={{ color: '#4dc060' }}>First</NavLink></li>
         </ul>
-        <div className="test">Hello, app!<img src={file} alt="file" /></div>
-        <img src={map} alt="gif" />
+        <div className="test">Hello, First!</div>
         {this.generateList()}
       </div>
     )
   }
 }
 
-export default App;
+export default First;
