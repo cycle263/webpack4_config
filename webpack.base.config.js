@@ -67,6 +67,6 @@ module.exports = {
         }
       }
     },
-    minimize: true   // 压缩代码，替代optimize.UglifyJsPlugin
+    minimize: false   // 压缩代码，替代optimize.UglifyJsPlugin
   }
 };
