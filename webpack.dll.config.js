@@ -12,13 +12,13 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './static'),
-    filename: '[name].dll.[hash:5].js',
-    library: '[name]_lib_[hash:5]'
+    filename: '[name].dll.[chunkhash:5].js',
+    library: '[name]_lib_[chunkhash:5]'
   },
   plugins: [
     new webpack.DllPlugin({
       path: path.join(__dirname, '.', '[name]-manifest.json'),
-      name: '[name]_lib_[hash:5]',
+      name: '[name]_lib_[chunkhash:5]',
       context: __dirname
     }),
     new CleanWebpackPlugin('static'),

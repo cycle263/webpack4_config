@@ -12,8 +12,8 @@ module.exports = {
     vendors: Object.keys(pkg.dependencies)
   },
   output: {
-    filename: '[name].[hash:5].js',
-    chunkFilename: '[name].[hash:5].js',
+    filename: '[name].[chunkhash:5].js',
+    chunkFilename: '[name].[chunkhash:5].js',
     path: path.resolve(__dirname, 'dist')
   },
   mode: env,
