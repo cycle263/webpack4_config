@@ -55,6 +55,10 @@ module.exports = {
       banner:
         "hash:[hash], chunkhash:[chunkhash], name:[name], filebase:[filebase], query:[query], file:[file] -- by Cycle"
     }),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
+      'VERSION': pkg.version
+    }),
   ],
   optimization: {
     splitChunks: {
