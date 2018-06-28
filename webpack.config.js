@@ -7,6 +7,11 @@ const env = process.env.WEBPACK_ENV;
 console.log('environment: ', env);
 
 module.exports = merge(baseConfig, {
+	output: {
+		filename: '[name].[chunkhash:5].js',
+		chunkFilename: '[name].[chunkhash:5].js',
+		path: path.resolve(__dirname, 'dist')
+	},
 	mode: env,
 	devtool: 'source-map',	// map模式
 	plugins: [

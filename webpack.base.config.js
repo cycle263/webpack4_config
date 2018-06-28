@@ -11,11 +11,6 @@ module.exports = {
     index: path.resolve(__dirname, 'src/index.js'),
     vendors: Object.keys(pkg.dependencies)
   },
-  output: {
-    filename: '[name].[chunkhash:5].js',
-    chunkFilename: '[name].[chunkhash:5].js',
-    path: path.resolve(__dirname, 'dist')
-  },
   mode: env,
   performance: {
     hints: false 	// 关闭warning日志信息
@@ -55,6 +50,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'webpack4 入门教程',
       template: './index.html'
+    }),
+    new webpack.BannerPlugin({
+      banner:
+        "hash:[hash], chunkhash:[chunkhash], name:[name], filebase:[filebase], query:[query], file:[file] -- by Cycle"
     }),
   ],
   optimization: {
