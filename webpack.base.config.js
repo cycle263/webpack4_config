@@ -59,6 +59,7 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
       'VERSION': pkg.version
     }),
+    new webpack.HashedModuleIdsPlugin(),  // 根据模块的相对路径生成一个四位数的hash作为模块id
   ],
   optimization: {
     splitChunks: {
