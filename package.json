@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "WEBPACK_ENV=development webpack-dev-server --mode development --progress --colors --watch --config ./webpack.dev.config.js --hot",
     "dll": "WEBPACK_ENV=development webpack --mode development --config ./webpack.dll.config.js",
-    "build": "WEBPACK_ENV=production webpack --mode production --progress --colors --watch --config ./webpack.config.js"
+    "build": "WEBPACK_ENV=production webpack --mode production --progress --colors --config ./webpack.config.js"
   },
   "author": "",
   "license": "ISC",
