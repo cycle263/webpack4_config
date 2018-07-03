@@ -1,4 +1,4 @@
-// webpack init
+// 完整的开发环境配置，因为router原因不可在本地跑
 const webpack = require('webpack');
 const path = require('path');
 const pkg = require('./package.json'); // 引入package.json
