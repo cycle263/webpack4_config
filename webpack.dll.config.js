@@ -8,7 +8,7 @@ console.log('environment: ', env);
 
 module.exports = {
   entry: {
-    vendors: Object.keys(pkg.dependencies)
+    dev: Object.keys(pkg.dependencies)
   },
   output: {
     path: path.resolve(__dirname, './static'),
@@ -21,9 +21,9 @@ module.exports = {
       name: '[name]_lib_[chunkhash:5]',
       context: __dirname
     }),
-    new CleanWebpackPlugin('static'),
+    new CleanWebpackPlugin('./static'),
     new AssetsPlugin({
-      filename: 'static/webpack.assets.js',
+      filename: './static/webpack.assets.js',
       processOutput: assets => `window.WEBPACK_ASSETS = ${JSON.stringify(assets)}`
     })
   ],

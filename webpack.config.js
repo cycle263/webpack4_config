@@ -1,7 +1,9 @@
 const path = require('path');
 const webpack = require('webpack');
+const pkg = require('./package.json'); // 引入package.json
 const baseConfig = require("./webpack.base.config");
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const merge = require("webpack-merge");
 const env = process.env.WEBPACK_ENV;
 console.log('environment: ', env);
@@ -14,10 +16,16 @@ module.exports = merge(baseConfig, {
 	},
 	mode: env,
 	devtool: 'source-map',	// map模式
+	optimization: {
+		
+		minimize: false   // 压缩代码，替代optimize.UglifyJsPlugin
+	},
 	plugins: [
 		new CleanWebpackPlugin('dist'),
-		new webpack.DllReferencePlugin({
-			manifest: require('./vendors-manifest.json'),
+		new HtmlWebpackPlugin({
+			title: 'webpack4 入门教程',
+			template: './index.html',
+			environment: env,
 		}),
 	]
 });
