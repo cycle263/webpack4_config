@@ -1,142 +1,76 @@
-const path = require("path");
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const isDebug = process.env.NODE_ENV === 'development';
+// webpack init
+const webpack = require('webpack');
+const path = require('path');
+const pkg = require('./package.json'); // 引入package.json
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const env = process.env.WEBPACK_ENV;
 
 module.exports = {
-  mode: isDebug ? 'development' : 'production',
   entry: {
-    vendor: [
-      "react",
-      "mobx",
-      "mobx-react",
-      "react-dom",
-      "react-router",
-      "whatwg-fetch"
-    ],
-    app: ["./src/index"]
-  },
-  output: {
-    path: path.join(__dirname, "dist"),
-    publicPath: "/",
-    filename: "[name].[hash].js",
-    chunkFilename: "[name].[chunkhash].js"
-  },
-  devtool: 'source-map',
-  optimization: {
-    runtimeChunk: {
-      name: 'manifest'
-    },
-    minimizer: [
-      new UglifyJsPlugin({
-        cache: true,
-        parallel: true,
-        sourceMap: true, // set to true if you want JS source maps,
-        uglifyOptions: {
-          warnings: false
-        }
-      }),
-      new OptimizeCSSAssetsPlugin({})
-    ],
-    splitChunks: {
-      chunks: 'async',
-      minSize: 30000,
-      minChunks: 1,
-      maxAsyncRequests: 5,
-      maxInitialRequests: 3,
-      name: false,
-      cacheGroups: {
-        vendor: {
-          name: 'vendor',
-          chunks: 'initial',
-          priority: -10,
-          reuseExistingChunk: false,
-          test: /node_modules\/(.*)\.js/
-        },
-        styles: {
-          name: 'styles',
-          test: /\.(scss|css)$/,
-          chunks: 'all',
-          minChunks: 1,
-          reuseExistingChunk: true,
-          enforce: true
-        }
-      }
-    }
-  },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        include: path.join(__dirname, "src"),
-        loader: "babel-loader",
-      },
-      {
-        test: /\.scss|css$/i,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          "postcss-loader?sourceMap",
-          "resolve-url-loader",
-          "sass-loader?sourceMap"
-        ]
-      },
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        use: [
-          "file-loader?hash=sha512&digest=hex&name=[hash].[ext]",
-          {
-            loader: "image-webpack-loader",
-            options: {
-              optipng: {
-                optimizationLevel: 7
-              },
-              gifsicle: {
-                interlaced: false
-              },
-              pngquant: {
-                quality: '65-90',
-                speed: 4,
-              },
-              mozjpeg: {
-                quality: 65,
-                progressive: true
-              }
-            }
-          }
-        ]
-      },
-      {
-        test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        use: "url-loader?limit=10000&mimetype=application/font-woff"
-      },
-      {
-        test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        use: "file-loader"
-      }
-    ]
+    index: path.resolve(__dirname, 'src/index.js'),
   },
   performance: {
-    hints: false
+    hints: false 	// 关闭warning日志信息
+  },
+  resolve: {
+    alias: {
+      imagesPath: path.resolve(__dirname, "src/assets/images/")
+    }
+  },
+  output: {
+    filename: '[name].[chunkhash:5].js',
+    chunkFilename: '[name].[chunkhash:5].js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  mode: env,
+  devtool: 'source-map',	// map模式
+  optimization: {
+
+    minimize: false   // 压缩代码，替代optimize.UglifyJsPlugin
+  },
+  module: {
+    rules: [{
+      test: /\.(js|jsx)$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      options: {
+        presets: ['env', 'react', 'es2017']
+      }
+    }, {
+      test: /\.(less|css)$/,
+      use: ExtractTextPlugin.extract({
+        use: ['css-loader', 'less-loader'],
+        fallback: 'style-loader'
+      })
+    }, {
+      test: /\.(png|svg|jpg|gif)$/,
+      use: [{
+        loader: 'url-loader',
+        options: {
+          limit: 8192,
+          name: 'images/[name].[hash:5].[ext]'
+        }
+      }]
+    }]
   },
   plugins: [
+    new ExtractTextPlugin('[name]-style.[hash:5].css'),
+    new webpack.BannerPlugin({
+      banner:
+        "hash:[hash], chunkhash:[chunkhash], name:[name], filebase:[filebase], query:[query], file:[file] -- by Cycle"
+    }),
     new webpack.DefinePlugin({
-      "process.env": {
-        NODE_ENV: JSON.stringify("production")
-      }
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
+      'VERSION': pkg.version
     }),
-    new webpack.NamedModulesPlugin(),
-    new webpack.optimize.OccurrenceOrderPlugin(true),
-    new MiniCssExtractPlugin({
-      filename: 'css/app.[name].css',
-      chunkFilename: 'css/app.[contenthash:12].css'
-    }),
+    new webpack.HashedModuleIdsPlugin(),  // 根据模块的相对路径生成一个四位数的hash作为模块id
+    new CleanWebpackPlugin('dist'),
     new HtmlWebpackPlugin({
-      hash: false,
-      template: "./index.html"
-    })
-  ]
+      title: 'webpack4 入门教程',
+      template: './index.html',
+      environment: env,
+    }),
+  ],
 };

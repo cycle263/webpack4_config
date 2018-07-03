@@ -1,4 +1,4 @@
-/*! hash:c4417160556208066b24, chunkhash:96f1a77bd7217ff56f21, name:index, filebase:index.96f1a.js, query:, file:index.96f1a.js -- by Cycle */
+/*! hash:4a1f72d579b0564d6da9, chunkhash:96f1a77bd7217ff56f21, name:index, filebase:index.96f1a.js, query:, file:index.96f1a.js -- by Cycle */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
