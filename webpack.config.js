@@ -9,9 +9,6 @@ const env = process.env.WEBPACK_ENV;
 console.log('environment: ', env);
 
 module.exports = merge(baseConfig, {
-	entry: {
-		vendors: Object.keys(pkg.dependencies),
-	},
 	output: {
 		filename: '[name].[chunkhash:5].js',
 		chunkFilename: '[name].[chunkhash:5].js',
@@ -22,13 +19,11 @@ module.exports = merge(baseConfig, {
 	optimization: {
 		minimize: true,   // 压缩代码，替代optimize.UglifyJsPlugin
 		splitChunks: {
-			cacheGroups: {
-				vendor: {
-					test: /node_modules\//,
-					name: 'vendors'
-				}
-			}
-		}
+			chunks: "all"
+		},
+		runtimeChunk: {
+			name: "manifest"
+		},
 	},
 	plugins: [
 		new CleanWebpackPlugin('dist'),
