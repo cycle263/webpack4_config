@@ -17,6 +17,9 @@ module.exports = merge(baseConfig, {
     hot: true,  // 热更新(HMR)不能和[chunkhash]同时使用
     historyApiFallback: true
   },
+  optimization: {
+    minimize: false   // 不压缩代码，替代optimize.UglifyJsPlugin
+  },
   plugins: [
     new webpack.DllReferencePlugin({
       manifest: require('./dev-manifest.json'),

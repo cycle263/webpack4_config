@@ -9,10 +9,10 @@
 <body>
   <div id="react-content"></div>
   <script>
-    document.write('<script src="<% if(htmlWebpackPlugin.options.environment=="production"){ %>../<% } %>static/webpack.assets.js?v=' + Math.random() + '"><\/script>');
+    document.write('<script src="static/webpack.assets.js?v=' + Math.random() + '"><\/script>');
   </script>
   <script>
-    document.write('<script src="<% if(htmlWebpackPlugin.options.environment=="production"){ %>../<% } %>static/' + window.WEBPACK_ASSETS['dev'].js + '"><\/script>');
+    document.write('<script src="static/' + window.WEBPACK_ASSETS['dev'].js + '"><\/script>');
   </script>
 </body>
 </html>

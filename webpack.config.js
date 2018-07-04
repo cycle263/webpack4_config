@@ -17,8 +17,7 @@ module.exports = merge(baseConfig, {
 	mode: env,
 	devtool: 'source-map',	// map模式
 	optimization: {
-		
-		minimize: false   // 压缩代码，替代optimize.UglifyJsPlugin
+		minimize: true   // 压缩代码，替代optimize.UglifyJsPlugin
 	},
 	plugins: [
 		new CleanWebpackPlugin('dist'),

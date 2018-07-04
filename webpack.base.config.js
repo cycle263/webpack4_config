@@ -37,7 +37,7 @@ module.exports = {
         loader: 'url-loader',
         options: {
           limit: 8192,
-          name: 'images/[name].[hash:5].[ext]'
+          name: './images/[name].[hash:5].[ext]'
         }
       }]
     }]
@@ -49,7 +49,7 @@ module.exports = {
         "hash:[hash], chunkhash:[chunkhash], name:[name], filebase:[filebase], query:[query], file:[file] -- by Cycle"
     }),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production'),
+      'process.env.WEBPACK_ENV': JSON.stringify(env || 'production'),
       'VERSION': pkg.version
     }),
     new webpack.HashedModuleIdsPlugin(),  // 根据模块的相对路径生成一个四位数的hash作为模块id
