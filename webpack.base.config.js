@@ -12,6 +12,11 @@ module.exports = {
   performance: {
     hints: false 	// 关闭warning日志信息
   },
+  stats: {  // 打包日志信息
+    entrypoints: false,
+    children: false,
+    modules: false,
+  },
   resolve: {
     alias: {
       imagesPath: path.resolve(__dirname, "src/assets/images/")

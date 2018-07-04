@@ -19,7 +19,7 @@ module.exports = merge(baseConfig, {
 	optimization: {
 		minimize: true,   // 压缩代码，替代optimize.UglifyJsPlugin
 		splitChunks: {
-			chunks: "all"
+			chunks: "all",
 		},
 		runtimeChunk: {
 			name: "manifest"

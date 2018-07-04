@@ -49,7 +49,8 @@
 		this.set("optimization.splitChunks.minSize", 30000);
 		this.set("optimization.splitChunks.minChunks", 1);
 		this.set("optimization.splitChunks.maxAsyncRequests", 5);
-		this.set("optimization.splitChunks.automaticNameDelimiter", "~");
+    // 打包分隔符， 如：vendors~chunkA~chunkB.js
+		this.set("optimization.splitChunks.automaticNameDelimiter", "~"); 
 		this.set("optimization.splitChunks.maxInitialRequests", 3);
 		this.set("optimization.splitChunks.name", true);
 		this.set("optimization.splitChunks.cacheGroups", {});
