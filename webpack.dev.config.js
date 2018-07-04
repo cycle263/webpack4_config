@@ -18,7 +18,7 @@ module.exports = merge(baseConfig, {
     historyApiFallback: true
   },
   optimization: {
-    minimize: false   // 不压缩代码，替代optimize.UglifyJsPlugin
+    minimize: false,   // 不压缩代码，替代optimize.UglifyJsPlugin
   },
   plugins: [
     new webpack.DllReferencePlugin({
