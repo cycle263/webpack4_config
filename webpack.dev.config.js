@@ -15,11 +15,18 @@ module.exports = merge(baseConfig, {
   devServer: {
     contentBase: path.resolve(__dirname),
     hot: true,  // 热更新(HMR)不能和[chunkhash]同时使用
-    historyApiFallback: true
+    historyApiFallback: true,
+    stats: {  // 打包日志信息
+      entrypoints: false,
+      children: false,
+      modules: false,
+    },
   },
+  mode: env,
   optimization: {
     minimize: false,   // 不压缩代码，替代optimize.UglifyJsPlugin
   },
+  devtool: 'source-map',	// map模式
   plugins: [
     new webpack.DllReferencePlugin({
       manifest: require('./dev-manifest.json'),

@@ -15,7 +15,6 @@ module.exports = merge(baseConfig, {
 		path: path.resolve(__dirname, 'dist')
 	},
 	mode: env,
-	devtool: 'source-map',	// map模式
 	optimization: {
 		minimize: true,   // 压缩代码，替代optimize.UglifyJsPlugin
 		splitChunks: {
