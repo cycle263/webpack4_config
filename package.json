@@ -17,6 +17,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "build-file-plugin": "^1.0.3",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.9",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
