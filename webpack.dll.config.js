@@ -4,7 +4,6 @@ const AssetsPlugin = require('assets-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const pkg = require('./package.json'); // 引入package.json
 const env = process.env.WEBPACK_ENV;
-console.log('environment: ', env);
 
 module.exports = {
   entry: {

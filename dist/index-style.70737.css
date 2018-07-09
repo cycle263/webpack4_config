@@ -1,0 +1,17 @@
+/*! hash:70737f938bda7e124749, chunkhash:3120559a55c683f22184, name:index, filebase:index-style.70737.css, query:, file:index-style.70737.css -- by Cycle */
+.test {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 24px;
+}
+.footer {
+  line-height: 32px;
+  list-style: none;
+}
+.footer > li {
+  display: inline-block;
+  padding: 2px 16px;
+}
+
+/*# sourceMappingURL=index-style.70737.css.map*/

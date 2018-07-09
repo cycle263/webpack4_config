@@ -1,0 +1,1746 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.6.0",
+  "hash": "70737f938bda7e124749",
+  "time": 960,
+  "builtAt": 1531111398638,
+  "publicPath": "",
+  "outputPath": "/Users/cycle263/other/myProject/gitproject/webpack4_config/dist",
+  "assetsByChunkName": {
+    "index": [
+      "index.70737.js",
+      "index-style.70737.css",
+      "index.70737.js.map",
+      "index-style.70737.css.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "buildFiles.md",
+      "size": 148,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "./images/map.ce239.jpg",
+      "size": 1224852,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true,
+      "isOverSizeLimit": true
+    },
+    {
+      "name": "index.70737.js",
+      "size": 16558,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "index-style.70737.css",
+      "size": 447,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "index.70737.js.map",
+      "size": 8920,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "index-style.70737.css.map",
+      "size": 98,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 639,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "chunks": [
+    {
+      "id": "index",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 9651,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index.70737.js",
+        "index-style.70737.css",
+        "index.70737.js.map",
+        "index-style.70737.css.map"
+      ],
+      "hash": "3120559a55c683f22184",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "4Vif",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+          "name": "./src/component/app.less",
+          "index": null,
+          "index2": null,
+          "size": 41,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": null,
+          "source": "// removed by extract-text-webpack-plugin"
+        },
+        {
+          "id": "DFOy",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+          "name": "./src/component/first.js",
+          "index": 15,
+          "index2": 14,
+          "size": 3651,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            }
+          ],
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "./component/first",
+              "loc": "21:13-41"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nvar _app = require('../assets/datas/app.json');\n\nvar _map = require('imagesPath/map.jpg');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _img = require('imagesPath/img.png');\n\nvar _img2 = _interopRequireDefault(_img);\n\nrequire('./app.less');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // images 为别名config中的alias\n\n\nvar First = function (_React$Component) {\n  _inherits(First, _React$Component);\n\n  function First(props) {\n    _classCallCheck(this, First);\n\n    return _possibleConstructorReturn(this, (First.__proto__ || Object.getPrototypeOf(First)).call(this, props));\n  }\n\n  _createClass(First, [{\n    key: 'generateList',\n    value: function generateList() {\n      return _app.base.map(function (item) {\n        return _react2.default.createElement(\n          'p',\n          { key: item.name },\n          item.name,\n          ': ',\n          item.age\n        );\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n          'ul',\n          { className: 'footer' },\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { exact: true, to: '/', activeStyle: { color: '#4dc060' } },\n              '\\u9996\\u9875'\n            )\n          ),\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { to: '/first', activeStyle: { color: '#4dc060' } },\n              'First'\n            )\n          )\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'test' },\n          'Hello, First!'\n        ),\n        this.generateList()\n      );\n    }\n  }]);\n\n  return First;\n}(_react2.default.Component);\n\nexports.default = First;"
+        },
+        {
+          "id": "EVdn",
+          "identifier": "delegated \"./node_modules/jquery/dist/jquery.js\" from dll-reference dev_lib_90128",
+          "name": "delegated ./node_modules/jquery/dist/jquery.js from dll-reference dev_lib_90128",
+          "index": 5,
+          "index2": 4,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            }
+          ],
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "jquery",
+              "loc": "13:14-31"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "RVQV",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/url-loader/dist/cjs.js??ref--6-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/assets/images/map.jpg",
+          "name": "./src/assets/images/map.jpg",
+          "index": 8,
+          "index2": 6,
+          "size": 68,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "issuerId": "etsB",
+          "issuerName": "./src/component/app.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            },
+            {
+              "id": "etsB",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "name": "./src/component/app.js",
+              "profile": {
+                "factory": 355,
+                "building": 0,
+                "dependencies": 59
+              }
+            }
+          ],
+          "profile": {
+            "factory": 98,
+            "building": 183
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+            "./images/map.ce239.jpg"
+          ],
+          "reasons": [
+            {
+              "moduleId": "etsB",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "module": "./src/component/app.js",
+              "moduleName": "./src/component/app.js",
+              "type": "cjs require",
+              "userRequest": "imagesPath/map.jpg",
+              "loc": "17:11-40"
+            },
+            {
+              "moduleId": "DFOy",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+              "module": "./src/component/first.js",
+              "moduleName": "./src/component/first.js",
+              "type": "cjs require",
+              "userRequest": "imagesPath/map.jpg",
+              "loc": "17:11-40"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "module.exports = __webpack_public_path__ + \"./images/map.ce239.jpg\";"
+        },
+        {
+          "id": "eO8H",
+          "identifier": "delegated \"./node_modules/react-router-dom/es/index.js\" from dll-reference dev_lib_90128",
+          "name": "delegated ./node_modules/react-router-dom/es/index.js from dll-reference dev_lib_90128",
+          "index": 4,
+          "index2": 3,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            }
+          ],
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "react-router-dom",
+              "loc": "11:22-49"
+            },
+            {
+              "moduleId": "etsB",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "module": "./src/component/app.js",
+              "moduleName": "./src/component/app.js",
+              "type": "cjs require",
+              "userRequest": "react-router-dom",
+              "loc": "13:22-49"
+            },
+            {
+              "moduleId": "DFOy",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+              "module": "./src/component/first.js",
+              "moduleName": "./src/component/first.js",
+              "type": "cjs require",
+              "userRequest": "react-router-dom",
+              "loc": "13:22-49"
+            }
+          ],
+          "providedExports": [
+            "BrowserRouter",
+            "HashRouter",
+            "Link",
+            "MemoryRouter",
+            "NavLink",
+            "Prompt",
+            "Redirect",
+            "Route",
+            "Router",
+            "StaticRouter",
+            "Switch",
+            "matchPath",
+            "withRouter"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "etsB",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "name": "./src/component/app.js",
+          "index": 6,
+          "index2": 13,
+          "size": 3798,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            }
+          ],
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "./component/app",
+              "loc": "17:11-37"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nvar _app = require('../assets/datas/app.json');\n\nvar _map = require('imagesPath/map.jpg');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _img = require('imagesPath/img.png');\n\nvar _img2 = _interopRequireDefault(_img);\n\nrequire('./app.less');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // images 为别名config中的alias\n\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App(props) {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n  }\n\n  _createClass(App, [{\n    key: 'generateList',\n    value: function generateList() {\n      return _app.base.map(function (item) {\n        return _react2.default.createElement(\n          'p',\n          { key: item.name },\n          item.name,\n          ': ',\n          item.age\n        );\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n          'ul',\n          { className: 'footer' },\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { exact: true, to: '/', activeStyle: { color: '#4dc060' } },\n              '\\u9996\\u9875'\n            )\n          ),\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { to: '/first', activeStyle: { color: '#4dc060' } },\n              'First'\n            )\n          )\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'test' },\n          'Hello, app!',\n          _react2.default.createElement('img', { src: _img2.default, alt: 'file' })\n        ),\n        _react2.default.createElement('img', { src: _map2.default, alt: 'gif' }),\n        this.generateList()\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = App;"
+        },
+        {
+          "id": "f1NQ",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/url-loader/dist/cjs.js??ref--6-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/assets/images/img.png",
+          "name": "./src/assets/images/img.png",
+          "index": 9,
+          "index2": 7,
+          "size": 553,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "issuerId": "etsB",
+          "issuerName": "./src/component/app.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            },
+            {
+              "id": "etsB",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "name": "./src/component/app.js",
+              "profile": {
+                "factory": 355,
+                "building": 0,
+                "dependencies": 59
+              }
+            }
+          ],
+          "profile": {
+            "factory": 98,
+            "building": 183
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "etsB",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "module": "./src/component/app.js",
+              "moduleName": "./src/component/app.js",
+              "type": "cjs require",
+              "userRequest": "imagesPath/img.png",
+              "loc": "21:11-40"
+            },
+            {
+              "moduleId": "DFOy",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+              "module": "./src/component/first.js",
+              "moduleName": "./src/component/first.js",
+              "type": "cjs require",
+              "userRequest": "imagesPath/img.png",
+              "loc": "21:11-40"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAQAAAACNCElAAABRUlEQVR4AWMYccBc3GSF8Qfj/8RDkz8m50xcsRpmfBiogHT401wLwygzRaDEeyt5UvziwGGyHKirEUPC1Aro7KOkBo1pKtCwWcPKMGNvk9PGn4HYm2LDjL2RYtCbQsNMTgPlqxx4TKqA9GlKXfbZ+L8DDzA58AC1f6a5y+gfZpixSad0NmqYmaXJPZPJ/xmpYJiJIbTcnUqxYeZaxq+BCveZfAeKd1FkmKWK8TOgss3GrCZexr+AMvVQjzsZPzSeZcxKgmHGcsYPgLw9Dhxg7wab/AFqKQaxjH+AK5JtxlxEGmYqYXwLyD7ixg0PvVjjf0BNS43/AsUXGr8CksdsBIkyzOQoUMEZY36UrJQBrdyqgV5VA7nb+DBxhm01OWImjJEz84yfmqZCQ1QaaOGW0exEsWGYzQMLBQqbB5Q3XKjZpBppAACG6ILR7K9q8gAAAABJRU5ErkJggg==\""
+        },
+        {
+          "id": "gO/C",
+          "identifier": "external \"dev_lib_90128\"",
+          "name": "external \"dev_lib_90128\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+          "issuerId": "q1tI",
+          "issuerName": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            },
+            {
+              "id": "q1tI",
+              "identifier": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+              "name": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+              "profile": {
+                "factory": 355,
+                "building": 0,
+                "dependencies": 59
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "q1tI",
+              "moduleIdentifier": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+              "module": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+              "moduleName": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+              "type": "delegated source",
+              "userRequest": "dll-reference dev_lib_90128"
+            },
+            {
+              "moduleId": "i8i4",
+              "moduleIdentifier": "delegated \"./node_modules/react-dom/index.js\" from dll-reference dev_lib_90128",
+              "module": "delegated ./node_modules/react-dom/index.js from dll-reference dev_lib_90128",
+              "moduleName": "delegated ./node_modules/react-dom/index.js from dll-reference dev_lib_90128",
+              "type": "delegated source",
+              "userRequest": "dll-reference dev_lib_90128"
+            },
+            {
+              "moduleId": "eO8H",
+              "moduleIdentifier": "delegated \"./node_modules/react-router-dom/es/index.js\" from dll-reference dev_lib_90128",
+              "module": "delegated ./node_modules/react-router-dom/es/index.js from dll-reference dev_lib_90128",
+              "moduleName": "delegated ./node_modules/react-router-dom/es/index.js from dll-reference dev_lib_90128",
+              "type": "delegated source",
+              "userRequest": "dll-reference dev_lib_90128"
+            },
+            {
+              "moduleId": "EVdn",
+              "moduleIdentifier": "delegated \"./node_modules/jquery/dist/jquery.js\" from dll-reference dev_lib_90128",
+              "module": "delegated ./node_modules/jquery/dist/jquery.js from dll-reference dev_lib_90128",
+              "moduleName": "delegated ./node_modules/jquery/dist/jquery.js from dll-reference dev_lib_90128",
+              "type": "delegated source",
+              "userRequest": "dll-reference dev_lib_90128"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        },
+        {
+          "id": "i8i4",
+          "identifier": "delegated \"./node_modules/react-dom/index.js\" from dll-reference dev_lib_90128",
+          "name": "delegated ./node_modules/react-dom/index.js from dll-reference dev_lib_90128",
+          "index": 3,
+          "index2": 2,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            }
+          ],
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "react-dom",
+              "loc": "7:16-36"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "q1tI",
+          "identifier": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+          "name": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+          "index": 1,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            }
+          ],
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "3:13-29"
+            },
+            {
+              "moduleId": "etsB",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "module": "./src/component/app.js",
+              "moduleName": "./src/component/app.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "9:13-29"
+            },
+            {
+              "moduleId": "DFOy",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+              "module": "./src/component/first.js",
+              "moduleName": "./src/component/first.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "9:13-29"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "qh5r",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/src/assets/datas/app.json",
+          "name": "./src/assets/datas/app.json",
+          "index": 7,
+          "index2": 5,
+          "size": 95,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "issuerId": "etsB",
+          "issuerName": "./src/component/app.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 51,
+                "building": 220
+              }
+            },
+            {
+              "id": "etsB",
+              "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "name": "./src/component/app.js",
+              "profile": {
+                "factory": 355,
+                "building": 0,
+                "dependencies": 59
+              }
+            }
+          ],
+          "profile": {
+            "factory": 98,
+            "building": 183
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "etsB",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+              "module": "./src/component/app.js",
+              "moduleName": "./src/component/app.js",
+              "type": "cjs require",
+              "userRequest": "../assets/datas/app.json",
+              "loc": "15:11-46"
+            },
+            {
+              "moduleId": "DFOy",
+              "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+              "module": "./src/component/first.js",
+              "moduleName": "./src/component/first.js",
+              "type": "cjs require",
+              "userRequest": "../assets/datas/app.json",
+              "loc": "15:11-46"
+            }
+          ],
+          "providedExports": [
+            "base",
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "{\n  \"base\": [{\n    \"name\": \"Tom\",\n    \"age\": 24\n  }, {\n    \"name\": \"John\",\n    \"age\": 22\n  }]\n}"
+        },
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 15,
+          "size": 1235,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 51,
+            "building": 220
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+              "loc": "index"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "'use strict';\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = require('react-dom');\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _reactRouterDom = require('react-router-dom');\n\nvar _jquery = require('jquery');\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _app = require('./component/app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nvar _first = require('./component/first');\n\nvar _first2 = _interopRequireDefault(_first);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log('' + process.env.WEBPACK_ENV);\n_reactDom2.default.render(_react2.default.createElement(\n  _reactRouterDom.BrowserRouter,\n  { basename: process.env.WEBPACK_ENV === 'production' ? '/webpack4_config/dist' : null },\n  _react2.default.createElement(\n    _reactRouterDom.Switch,\n    null,\n    _react2.default.createElement(_reactRouterDom.Route, { path: '/index', component: _app2.default }),\n    _react2.default.createElement(_reactRouterDom.Route, { path: '/first', component: _first2.default }),\n    _react2.default.createElement(_reactRouterDom.Redirect, { from: '/', to: '/index' })\n  )\n), document.getElementById('react-content'));"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "4Vif",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+      "name": "./src/component/app.less",
+      "index": null,
+      "index2": null,
+      "size": 41,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": null,
+      "source": "// removed by extract-text-webpack-plugin"
+    },
+    {
+      "id": "9tPo",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "index": 14,
+      "index2": 10,
+      "size": 3008,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/lib/addStyles.js",
+      "issuerId": "aET+",
+      "issuerName": "./node_modules/style-loader/lib/addStyles.js",
+      "issuerPath": [
+        {
+          "id": "4Vif",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+          "name": "./src/component/app.less"
+        },
+        {
+          "id": "aET+",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/lib/addStyles.js",
+          "name": "./node_modules/style-loader/lib/addStyles.js",
+          "profile": {
+            "factory": 152,
+            "building": 39
+          }
+        }
+      ],
+      "profile": {
+        "factory": 3,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4,
+      "source": "\n/**\n * When source maps are enabled, `style-loader` uses a link element with a data-uri to\n * embed the css on the page. This breaks all relative urls because now they are relative to a\n * bundle instead of the current page.\n *\n * One solution is to only use full urls, but that may be impossible.\n *\n * Instead, this function \"fixes\" the relative urls to be absolute according to the current page location.\n *\n * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.\n *\n */\n\nmodule.exports = function (css) {\n  // get current location\n  var location = typeof window !== \"undefined\" && window.location;\n\n  if (!location) {\n    throw new Error(\"fixUrls requires window.location\");\n  }\n\n\t// blank or null?\n\tif (!css || typeof css !== \"string\") {\n\t  return css;\n  }\n\n  var baseUrl = location.protocol + \"//\" + location.host;\n  var currentDir = baseUrl + location.pathname.replace(/\\/[^\\/]*$/, \"/\");\n\n\t// convert each url(...)\n\t/*\n\tThis regular expression is just a way to recursively match brackets within\n\ta string.\n\n\t /url\\s*\\(  = Match on the word \"url\" with any whitespace after it and then a parens\n\t   (  = Start a capturing group\n\t     (?:  = Start a non-capturing group\n\t         [^)(]  = Match anything that isn't a parentheses\n\t         |  = OR\n\t         \\(  = Match a start parentheses\n\t             (?:  = Start another non-capturing groups\n\t                 [^)(]+  = Match anything that isn't a parentheses\n\t                 |  = OR\n\t                 \\(  = Match a start parentheses\n\t                     [^)(]*  = Match anything that isn't a parentheses\n\t                 \\)  = Match a end parentheses\n\t             )  = End Group\n              *\\) = Match anything and then a close parens\n          )  = Close non-capturing group\n          *  = Match anything\n       )  = Close capturing group\n\t \\)  = Match a close parens\n\n\t /gi  = Get all matches, not the first.  Be case insensitive.\n\t */\n\tvar fixedCss = css.replace(/url\\s*\\(((?:[^)(]|\\((?:[^)(]+|\\([^)(]*\\))*\\))*)\\)/gi, function(fullMatch, origUrl) {\n\t\t// strip quotes (if they exist)\n\t\tvar unquotedOrigUrl = origUrl\n\t\t\t.trim()\n\t\t\t.replace(/^\"(.*)\"$/, function(o, $1){ return $1; })\n\t\t\t.replace(/^'(.*)'$/, function(o, $1){ return $1; });\n\n\t\t// already a full url? no change\n\t\tif (/^(#|data:|http:\\/\\/|https:\\/\\/|file:\\/\\/\\/)/i.test(unquotedOrigUrl)) {\n\t\t  return fullMatch;\n\t\t}\n\n\t\t// convert the url to a full url\n\t\tvar newUrl;\n\n\t\tif (unquotedOrigUrl.indexOf(\"//\") === 0) {\n\t\t  \t//TODO: should we add protocol?\n\t\t\tnewUrl = unquotedOrigUrl;\n\t\t} else if (unquotedOrigUrl.indexOf(\"/\") === 0) {\n\t\t\t// path should be relative to the base url\n\t\t\tnewUrl = baseUrl + unquotedOrigUrl; // already starts with '/'\n\t\t} else {\n\t\t\t// path should be relative to current directory\n\t\t\tnewUrl = currentDir + unquotedOrigUrl.replace(/^\\.\\//, \"\"); // Strip leading './'\n\t\t}\n\n\t\t// send back the fixed url(...)\n\t\treturn \"url(\" + JSON.stringify(newUrl) + \")\";\n\t});\n\n\t// send back the fixed css\n\treturn fixedCss;\n};\n"
+    },
+    {
+      "id": "DFOy",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+      "name": "./src/component/first.js",
+      "index": 15,
+      "index2": 14,
+      "size": 3651,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        }
+      ],
+      "profile": {
+        "factory": 355,
+        "building": 0,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "./component/first",
+          "loc": "21:13-41"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nvar _app = require('../assets/datas/app.json');\n\nvar _map = require('imagesPath/map.jpg');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _img = require('imagesPath/img.png');\n\nvar _img2 = _interopRequireDefault(_img);\n\nrequire('./app.less');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // images 为别名config中的alias\n\n\nvar First = function (_React$Component) {\n  _inherits(First, _React$Component);\n\n  function First(props) {\n    _classCallCheck(this, First);\n\n    return _possibleConstructorReturn(this, (First.__proto__ || Object.getPrototypeOf(First)).call(this, props));\n  }\n\n  _createClass(First, [{\n    key: 'generateList',\n    value: function generateList() {\n      return _app.base.map(function (item) {\n        return _react2.default.createElement(\n          'p',\n          { key: item.name },\n          item.name,\n          ': ',\n          item.age\n        );\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n          'ul',\n          { className: 'footer' },\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { exact: true, to: '/', activeStyle: { color: '#4dc060' } },\n              '\\u9996\\u9875'\n            )\n          ),\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { to: '/first', activeStyle: { color: '#4dc060' } },\n              'First'\n            )\n          )\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'test' },\n          'Hello, First!'\n        ),\n        this.generateList()\n      );\n    }\n  }]);\n\n  return First;\n}(_react2.default.Component);\n\nexports.default = First;"
+    },
+    {
+      "id": "EVdn",
+      "identifier": "delegated \"./node_modules/jquery/dist/jquery.js\" from dll-reference dev_lib_90128",
+      "name": "delegated ./node_modules/jquery/dist/jquery.js from dll-reference dev_lib_90128",
+      "index": 5,
+      "index2": 4,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        }
+      ],
+      "profile": {
+        "factory": 355,
+        "building": 0,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "jquery",
+          "loc": "13:14-31"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "I1BE",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/lib/css-base.js",
+      "name": "./node_modules/css-loader/lib/css-base.js",
+      "index": 12,
+      "index2": 8,
+      "size": 2260,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+      "issuerId": "REBq",
+      "issuerName": "./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/component/app.less",
+      "issuerPath": [
+        {
+          "id": "4Vif",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+          "name": "./src/component/app.less"
+        },
+        {
+          "id": "REBq",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+          "name": "./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/component/app.less",
+          "profile": {
+            "factory": 152,
+            "building": 39
+          }
+        }
+      ],
+      "profile": {
+        "factory": 11,
+        "building": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 4,
+      "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+    },
+    {
+      "id": "REBq",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+      "name": "./node_modules/css-loader!./node_modules/less-loader/dist/cjs.js!./src/component/app.less",
+      "index": 11,
+      "index2": 9,
+      "size": 417,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+      "issuerId": "4Vif",
+      "issuerName": "./src/component/app.less",
+      "issuerPath": [
+        {
+          "id": "4Vif",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+          "name": "./src/component/app.less"
+        }
+      ],
+      "profile": {
+        "factory": 152,
+        "building": 39
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "exports = module.exports = require(\"../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".test {\\n  font-family: Georgia, 'Times New Roman', Times, serif;\\n  font-size: 18px;\\n  text-align: center;\\n  padding: 24px;\\n}\\n.footer {\\n  line-height: 32px;\\n  list-style: none;\\n}\\n.footer > li {\\n  display: inline-block;\\n  padding: 2px 16px;\\n}\\n\", \"\"]);\n\n// exports\n"
+    },
+    {
+      "id": "RVQV",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/url-loader/dist/cjs.js??ref--6-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/assets/images/map.jpg",
+      "name": "./src/assets/images/map.jpg",
+      "index": 8,
+      "index2": 6,
+      "size": 68,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+      "issuerId": "etsB",
+      "issuerName": "./src/component/app.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        },
+        {
+          "id": "etsB",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "name": "./src/component/app.js",
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          }
+        }
+      ],
+      "profile": {
+        "factory": 98,
+        "building": 183
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+        "./images/map.ce239.jpg"
+      ],
+      "reasons": [
+        {
+          "moduleId": "etsB",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "module": "./src/component/app.js",
+          "moduleName": "./src/component/app.js",
+          "type": "cjs require",
+          "userRequest": "imagesPath/map.jpg",
+          "loc": "17:11-40"
+        },
+        {
+          "moduleId": "DFOy",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+          "module": "./src/component/first.js",
+          "moduleName": "./src/component/first.js",
+          "type": "cjs require",
+          "userRequest": "imagesPath/map.jpg",
+          "loc": "17:11-40"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "module.exports = __webpack_public_path__ + \"./images/map.ce239.jpg\";"
+    },
+    {
+      "id": "aET+",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "index": 13,
+      "index2": 11,
+      "size": 9457,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+      "issuerId": "4Vif",
+      "issuerName": "./src/component/app.less",
+      "issuerPath": [
+        {
+          "id": "4Vif",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--5-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/style-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/css-loader/index.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/less-loader/dist/cjs.js!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.less",
+          "name": "./src/component/app.less"
+        }
+      ],
+      "profile": {
+        "factory": 152,
+        "building": 39
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n\nvar stylesInDom = {};\n\nvar\tmemoize = function (fn) {\n\tvar memo;\n\n\treturn function () {\n\t\tif (typeof memo === \"undefined\") memo = fn.apply(this, arguments);\n\t\treturn memo;\n\t};\n};\n\nvar isOldIE = memoize(function () {\n\t// Test for IE <= 9 as proposed by Browserhacks\n\t// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n\t// Tests for existence of standard globals is to allow style-loader\n\t// to operate correctly into non-standard environments\n\t// @see https://github.com/webpack-contrib/style-loader/issues/177\n\treturn window && document && document.all && !window.atob;\n});\n\nvar getElement = (function (fn) {\n\tvar memo = {};\n\n\treturn function(selector) {\n\t\tif (typeof memo[selector] === \"undefined\") {\n\t\t\tvar styleTarget = fn.call(this, selector);\n\t\t\t// Special case to return head of iframe instead of iframe itself\n\t\t\tif (styleTarget instanceof window.HTMLIFrameElement) {\n\t\t\t\ttry {\n\t\t\t\t\t// This will throw an exception if access to iframe is blocked\n\t\t\t\t\t// due to cross-origin restrictions\n\t\t\t\t\tstyleTarget = styleTarget.contentDocument.head;\n\t\t\t\t} catch(e) {\n\t\t\t\t\tstyleTarget = null;\n\t\t\t\t}\n\t\t\t}\n\t\t\tmemo[selector] = styleTarget;\n\t\t}\n\t\treturn memo[selector]\n\t};\n})(function (target) {\n\treturn document.querySelector(target)\n});\n\nvar singleton = null;\nvar\tsingletonCounter = 0;\nvar\tstylesInsertedAtTop = [];\n\nvar\tfixUrls = require(\"./urls\");\n\nmodule.exports = function(list, options) {\n\tif (typeof DEBUG !== \"undefined\" && DEBUG) {\n\t\tif (typeof document !== \"object\") throw new Error(\"The style-loader cannot be used in a non-browser environment\");\n\t}\n\n\toptions = options || {};\n\n\toptions.attrs = typeof options.attrs === \"object\" ? options.attrs : {};\n\n\t// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n\t// tags it will allow on a page\n\tif (!options.singleton && typeof options.singleton !== \"boolean\") options.singleton = isOldIE();\n\n\t// By default, add <style> tags to the <head> element\n\tif (!options.insertInto) options.insertInto = \"head\";\n\n\t// By default, add <style> tags to the bottom of the target\n\tif (!options.insertAt) options.insertAt = \"bottom\";\n\n\tvar styles = listToStyles(list, options);\n\n\taddStylesToDom(styles, options);\n\n\treturn function update (newList) {\n\t\tvar mayRemove = [];\n\n\t\tfor (var i = 0; i < styles.length; i++) {\n\t\t\tvar item = styles[i];\n\t\t\tvar domStyle = stylesInDom[item.id];\n\n\t\t\tdomStyle.refs--;\n\t\t\tmayRemove.push(domStyle);\n\t\t}\n\n\t\tif(newList) {\n\t\t\tvar newStyles = listToStyles(newList, options);\n\t\t\taddStylesToDom(newStyles, options);\n\t\t}\n\n\t\tfor (var i = 0; i < mayRemove.length; i++) {\n\t\t\tvar domStyle = mayRemove[i];\n\n\t\t\tif(domStyle.refs === 0) {\n\t\t\t\tfor (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();\n\n\t\t\t\tdelete stylesInDom[domStyle.id];\n\t\t\t}\n\t\t}\n\t};\n};\n\nfunction addStylesToDom (styles, options) {\n\tfor (var i = 0; i < styles.length; i++) {\n\t\tvar item = styles[i];\n\t\tvar domStyle = stylesInDom[item.id];\n\n\t\tif(domStyle) {\n\t\t\tdomStyle.refs++;\n\n\t\t\tfor(var j = 0; j < domStyle.parts.length; j++) {\n\t\t\t\tdomStyle.parts[j](item.parts[j]);\n\t\t\t}\n\n\t\t\tfor(; j < item.parts.length; j++) {\n\t\t\t\tdomStyle.parts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\t\t} else {\n\t\t\tvar parts = [];\n\n\t\t\tfor(var j = 0; j < item.parts.length; j++) {\n\t\t\t\tparts.push(addStyle(item.parts[j], options));\n\t\t\t}\n\n\t\t\tstylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};\n\t\t}\n\t}\n}\n\nfunction listToStyles (list, options) {\n\tvar styles = [];\n\tvar newStyles = {};\n\n\tfor (var i = 0; i < list.length; i++) {\n\t\tvar item = list[i];\n\t\tvar id = options.base ? item[0] + options.base : item[0];\n\t\tvar css = item[1];\n\t\tvar media = item[2];\n\t\tvar sourceMap = item[3];\n\t\tvar part = {css: css, media: media, sourceMap: sourceMap};\n\n\t\tif(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});\n\t\telse newStyles[id].parts.push(part);\n\t}\n\n\treturn styles;\n}\n\nfunction insertStyleElement (options, style) {\n\tvar target = getElement(options.insertInto)\n\n\tif (!target) {\n\t\tthrow new Error(\"Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.\");\n\t}\n\n\tvar lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];\n\n\tif (options.insertAt === \"top\") {\n\t\tif (!lastStyleElementInsertedAtTop) {\n\t\t\ttarget.insertBefore(style, target.firstChild);\n\t\t} else if (lastStyleElementInsertedAtTop.nextSibling) {\n\t\t\ttarget.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);\n\t\t} else {\n\t\t\ttarget.appendChild(style);\n\t\t}\n\t\tstylesInsertedAtTop.push(style);\n\t} else if (options.insertAt === \"bottom\") {\n\t\ttarget.appendChild(style);\n\t} else if (typeof options.insertAt === \"object\" && options.insertAt.before) {\n\t\tvar nextSibling = getElement(options.insertInto + \" \" + options.insertAt.before);\n\t\ttarget.insertBefore(style, nextSibling);\n\t} else {\n\t\tthrow new Error(\"[Style Loader]\\n\\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\\n Must be 'top', 'bottom', or Object.\\n (https://github.com/webpack-contrib/style-loader#insertat)\\n\");\n\t}\n}\n\nfunction removeStyleElement (style) {\n\tif (style.parentNode === null) return false;\n\tstyle.parentNode.removeChild(style);\n\n\tvar idx = stylesInsertedAtTop.indexOf(style);\n\tif(idx >= 0) {\n\t\tstylesInsertedAtTop.splice(idx, 1);\n\t}\n}\n\nfunction createStyleElement (options) {\n\tvar style = document.createElement(\"style\");\n\n\toptions.attrs.type = \"text/css\";\n\n\taddAttrs(style, options.attrs);\n\tinsertStyleElement(options, style);\n\n\treturn style;\n}\n\nfunction createLinkElement (options) {\n\tvar link = document.createElement(\"link\");\n\n\toptions.attrs.type = \"text/css\";\n\toptions.attrs.rel = \"stylesheet\";\n\n\taddAttrs(link, options.attrs);\n\tinsertStyleElement(options, link);\n\n\treturn link;\n}\n\nfunction addAttrs (el, attrs) {\n\tObject.keys(attrs).forEach(function (key) {\n\t\tel.setAttribute(key, attrs[key]);\n\t});\n}\n\nfunction addStyle (obj, options) {\n\tvar style, update, remove, result;\n\n\t// If a transform function was defined, run it on the css\n\tif (options.transform && obj.css) {\n\t    result = options.transform(obj.css);\n\n\t    if (result) {\n\t    \t// If transform returns a value, use that instead of the original css.\n\t    \t// This allows running runtime transformations on the css.\n\t    \tobj.css = result;\n\t    } else {\n\t    \t// If the transform function returns a falsy value, don't add this css.\n\t    \t// This allows conditional loading of css\n\t    \treturn function() {\n\t    \t\t// noop\n\t    \t};\n\t    }\n\t}\n\n\tif (options.singleton) {\n\t\tvar styleIndex = singletonCounter++;\n\n\t\tstyle = singleton || (singleton = createStyleElement(options));\n\n\t\tupdate = applyToSingletonTag.bind(null, style, styleIndex, false);\n\t\tremove = applyToSingletonTag.bind(null, style, styleIndex, true);\n\n\t} else if (\n\t\tobj.sourceMap &&\n\t\ttypeof URL === \"function\" &&\n\t\ttypeof URL.createObjectURL === \"function\" &&\n\t\ttypeof URL.revokeObjectURL === \"function\" &&\n\t\ttypeof Blob === \"function\" &&\n\t\ttypeof btoa === \"function\"\n\t) {\n\t\tstyle = createLinkElement(options);\n\t\tupdate = updateLink.bind(null, style, options);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\n\t\t\tif(style.href) URL.revokeObjectURL(style.href);\n\t\t};\n\t} else {\n\t\tstyle = createStyleElement(options);\n\t\tupdate = applyToTag.bind(null, style);\n\t\tremove = function () {\n\t\t\tremoveStyleElement(style);\n\t\t};\n\t}\n\n\tupdate(obj);\n\n\treturn function updateStyle (newObj) {\n\t\tif (newObj) {\n\t\t\tif (\n\t\t\t\tnewObj.css === obj.css &&\n\t\t\t\tnewObj.media === obj.media &&\n\t\t\t\tnewObj.sourceMap === obj.sourceMap\n\t\t\t) {\n\t\t\t\treturn;\n\t\t\t}\n\n\t\t\tupdate(obj = newObj);\n\t\t} else {\n\t\t\tremove();\n\t\t}\n\t};\n}\n\nvar replaceText = (function () {\n\tvar textStore = [];\n\n\treturn function (index, replacement) {\n\t\ttextStore[index] = replacement;\n\n\t\treturn textStore.filter(Boolean).join('\\n');\n\t};\n})();\n\nfunction applyToSingletonTag (style, index, remove, obj) {\n\tvar css = remove ? \"\" : obj.css;\n\n\tif (style.styleSheet) {\n\t\tstyle.styleSheet.cssText = replaceText(index, css);\n\t} else {\n\t\tvar cssNode = document.createTextNode(css);\n\t\tvar childNodes = style.childNodes;\n\n\t\tif (childNodes[index]) style.removeChild(childNodes[index]);\n\n\t\tif (childNodes.length) {\n\t\t\tstyle.insertBefore(cssNode, childNodes[index]);\n\t\t} else {\n\t\t\tstyle.appendChild(cssNode);\n\t\t}\n\t}\n}\n\nfunction applyToTag (style, obj) {\n\tvar css = obj.css;\n\tvar media = obj.media;\n\n\tif(media) {\n\t\tstyle.setAttribute(\"media\", media)\n\t}\n\n\tif(style.styleSheet) {\n\t\tstyle.styleSheet.cssText = css;\n\t} else {\n\t\twhile(style.firstChild) {\n\t\t\tstyle.removeChild(style.firstChild);\n\t\t}\n\n\t\tstyle.appendChild(document.createTextNode(css));\n\t}\n}\n\nfunction updateLink (link, options, obj) {\n\tvar css = obj.css;\n\tvar sourceMap = obj.sourceMap;\n\n\t/*\n\t\tIf convertToAbsoluteUrls isn't defined, but sourcemaps are enabled\n\t\tand there is no publicPath defined then lets turn convertToAbsoluteUrls\n\t\ton by default.  Otherwise default to the convertToAbsoluteUrls option\n\t\tdirectly\n\t*/\n\tvar autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;\n\n\tif (options.convertToAbsoluteUrls || autoFixUrls) {\n\t\tcss = fixUrls(css);\n\t}\n\n\tif (sourceMap) {\n\t\t// http://stackoverflow.com/a/26603875\n\t\tcss += \"\\n/*# sourceMappingURL=data:application/json;base64,\" + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + \" */\";\n\t}\n\n\tvar blob = new Blob([css], { type: \"text/css\" });\n\n\tvar oldSrc = link.href;\n\n\tlink.href = URL.createObjectURL(blob);\n\n\tif(oldSrc) URL.revokeObjectURL(oldSrc);\n}\n"
+    },
+    {
+      "id": "eO8H",
+      "identifier": "delegated \"./node_modules/react-router-dom/es/index.js\" from dll-reference dev_lib_90128",
+      "name": "delegated ./node_modules/react-router-dom/es/index.js from dll-reference dev_lib_90128",
+      "index": 4,
+      "index2": 3,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        }
+      ],
+      "profile": {
+        "factory": 355,
+        "building": 0,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "react-router-dom",
+          "loc": "11:22-49"
+        },
+        {
+          "moduleId": "etsB",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "module": "./src/component/app.js",
+          "moduleName": "./src/component/app.js",
+          "type": "cjs require",
+          "userRequest": "react-router-dom",
+          "loc": "13:22-49"
+        },
+        {
+          "moduleId": "DFOy",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+          "module": "./src/component/first.js",
+          "moduleName": "./src/component/first.js",
+          "type": "cjs require",
+          "userRequest": "react-router-dom",
+          "loc": "13:22-49"
+        }
+      ],
+      "providedExports": [
+        "BrowserRouter",
+        "HashRouter",
+        "Link",
+        "MemoryRouter",
+        "NavLink",
+        "Prompt",
+        "Redirect",
+        "Route",
+        "Router",
+        "StaticRouter",
+        "Switch",
+        "matchPath",
+        "withRouter"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "etsB",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+      "name": "./src/component/app.js",
+      "index": 6,
+      "index2": 13,
+      "size": 3798,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        }
+      ],
+      "profile": {
+        "factory": 355,
+        "building": 0,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "./component/app",
+          "loc": "17:11-37"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRouterDom = require('react-router-dom');\n\nvar _app = require('../assets/datas/app.json');\n\nvar _map = require('imagesPath/map.jpg');\n\nvar _map2 = _interopRequireDefault(_map);\n\nvar _img = require('imagesPath/img.png');\n\nvar _img2 = _interopRequireDefault(_img);\n\nrequire('./app.less');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } // images 为别名config中的alias\n\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App(props) {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));\n  }\n\n  _createClass(App, [{\n    key: 'generateList',\n    value: function generateList() {\n      return _app.base.map(function (item) {\n        return _react2.default.createElement(\n          'p',\n          { key: item.name },\n          item.name,\n          ': ',\n          item.age\n        );\n      });\n    }\n  }, {\n    key: 'render',\n    value: function render() {\n      return _react2.default.createElement(\n        'div',\n        null,\n        _react2.default.createElement(\n          'ul',\n          { className: 'footer' },\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { exact: true, to: '/', activeStyle: { color: '#4dc060' } },\n              '\\u9996\\u9875'\n            )\n          ),\n          _react2.default.createElement(\n            'li',\n            null,\n            _react2.default.createElement(\n              _reactRouterDom.NavLink,\n              { to: '/first', activeStyle: { color: '#4dc060' } },\n              'First'\n            )\n          )\n        ),\n        _react2.default.createElement(\n          'div',\n          { className: 'test' },\n          'Hello, app!',\n          _react2.default.createElement('img', { src: _img2.default, alt: 'file' })\n        ),\n        _react2.default.createElement('img', { src: _map2.default, alt: 'gif' }),\n        this.generateList()\n      );\n    }\n  }]);\n\n  return App;\n}(_react2.default.Component);\n\nexports.default = App;"
+    },
+    {
+      "id": "f1NQ",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/url-loader/dist/cjs.js??ref--6-0!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/assets/images/img.png",
+      "name": "./src/assets/images/img.png",
+      "index": 9,
+      "index2": 7,
+      "size": 553,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+      "issuerId": "etsB",
+      "issuerName": "./src/component/app.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        },
+        {
+          "id": "etsB",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "name": "./src/component/app.js",
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          }
+        }
+      ],
+      "profile": {
+        "factory": 98,
+        "building": 183
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "etsB",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "module": "./src/component/app.js",
+          "moduleName": "./src/component/app.js",
+          "type": "cjs require",
+          "userRequest": "imagesPath/img.png",
+          "loc": "21:11-40"
+        },
+        {
+          "moduleId": "DFOy",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+          "module": "./src/component/first.js",
+          "moduleName": "./src/component/first.js",
+          "type": "cjs require",
+          "userRequest": "imagesPath/img.png",
+          "loc": "21:11-40"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAQAAAACNCElAAABRUlEQVR4AWMYccBc3GSF8Qfj/8RDkz8m50xcsRpmfBiogHT401wLwygzRaDEeyt5UvziwGGyHKirEUPC1Aro7KOkBo1pKtCwWcPKMGNvk9PGn4HYm2LDjL2RYtCbQsNMTgPlqxx4TKqA9GlKXfbZ+L8DDzA58AC1f6a5y+gfZpixSad0NmqYmaXJPZPJ/xmpYJiJIbTcnUqxYeZaxq+BCveZfAeKd1FkmKWK8TOgss3GrCZexr+AMvVQjzsZPzSeZcxKgmHGcsYPgLw9Dhxg7wab/AFqKQaxjH+AK5JtxlxEGmYqYXwLyD7ixg0PvVjjf0BNS43/AsUXGr8CksdsBIkyzOQoUMEZY36UrJQBrdyqgV5VA7nb+DBxhm01OWImjJEz84yfmqZCQ1QaaOGW0exEsWGYzQMLBQqbB5Q3XKjZpBppAACG6ILR7K9q8gAAAABJRU5ErkJggg==\""
+    },
+    {
+      "id": "gO/C",
+      "identifier": "external \"dev_lib_90128\"",
+      "name": "external \"dev_lib_90128\"",
+      "index": 2,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+      "issuerId": "q1tI",
+      "issuerName": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        },
+        {
+          "id": "q1tI",
+          "identifier": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+          "name": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "q1tI",
+          "moduleIdentifier": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+          "module": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+          "moduleName": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+          "type": "delegated source",
+          "userRequest": "dll-reference dev_lib_90128"
+        },
+        {
+          "moduleId": "i8i4",
+          "moduleIdentifier": "delegated \"./node_modules/react-dom/index.js\" from dll-reference dev_lib_90128",
+          "module": "delegated ./node_modules/react-dom/index.js from dll-reference dev_lib_90128",
+          "moduleName": "delegated ./node_modules/react-dom/index.js from dll-reference dev_lib_90128",
+          "type": "delegated source",
+          "userRequest": "dll-reference dev_lib_90128"
+        },
+        {
+          "moduleId": "eO8H",
+          "moduleIdentifier": "delegated \"./node_modules/react-router-dom/es/index.js\" from dll-reference dev_lib_90128",
+          "module": "delegated ./node_modules/react-router-dom/es/index.js from dll-reference dev_lib_90128",
+          "moduleName": "delegated ./node_modules/react-router-dom/es/index.js from dll-reference dev_lib_90128",
+          "type": "delegated source",
+          "userRequest": "dll-reference dev_lib_90128"
+        },
+        {
+          "moduleId": "EVdn",
+          "moduleIdentifier": "delegated \"./node_modules/jquery/dist/jquery.js\" from dll-reference dev_lib_90128",
+          "module": "delegated ./node_modules/jquery/dist/jquery.js from dll-reference dev_lib_90128",
+          "moduleName": "delegated ./node_modules/jquery/dist/jquery.js from dll-reference dev_lib_90128",
+          "type": "delegated source",
+          "userRequest": "dll-reference dev_lib_90128"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "i8i4",
+      "identifier": "delegated \"./node_modules/react-dom/index.js\" from dll-reference dev_lib_90128",
+      "name": "delegated ./node_modules/react-dom/index.js from dll-reference dev_lib_90128",
+      "index": 3,
+      "index2": 2,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        }
+      ],
+      "profile": {
+        "factory": 355,
+        "building": 0,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "react-dom",
+          "loc": "7:16-36"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "q1tI",
+      "identifier": "delegated \"./node_modules/react/index.js\" from dll-reference dev_lib_90128",
+      "name": "delegated ./node_modules/react/index.js from dll-reference dev_lib_90128",
+      "index": 1,
+      "index2": 1,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        }
+      ],
+      "profile": {
+        "factory": 355,
+        "building": 0,
+        "dependencies": 59
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "3:13-29"
+        },
+        {
+          "moduleId": "etsB",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "module": "./src/component/app.js",
+          "moduleName": "./src/component/app.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "9:13-29"
+        },
+        {
+          "moduleId": "DFOy",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+          "module": "./src/component/first.js",
+          "moduleName": "./src/component/first.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "9:13-29"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "qh5r",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/src/assets/datas/app.json",
+      "name": "./src/assets/datas/app.json",
+      "index": 7,
+      "index2": 5,
+      "size": 95,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+      "issuerId": "etsB",
+      "issuerName": "./src/component/app.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 51,
+            "building": 220
+          }
+        },
+        {
+          "id": "etsB",
+          "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "name": "./src/component/app.js",
+          "profile": {
+            "factory": 355,
+            "building": 0,
+            "dependencies": 59
+          }
+        }
+      ],
+      "profile": {
+        "factory": 98,
+        "building": 183
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "etsB",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/app.js",
+          "module": "./src/component/app.js",
+          "moduleName": "./src/component/app.js",
+          "type": "cjs require",
+          "userRequest": "../assets/datas/app.json",
+          "loc": "15:11-46"
+        },
+        {
+          "moduleId": "DFOy",
+          "moduleIdentifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/component/first.js",
+          "module": "./src/component/first.js",
+          "moduleName": "./src/component/first.js",
+          "type": "cjs require",
+          "userRequest": "../assets/datas/app.json",
+          "loc": "15:11-46"
+        }
+      ],
+      "providedExports": [
+        "base",
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "{\n  \"base\": [{\n    \"name\": \"Tom\",\n    \"age\": 24\n  }, {\n    \"name\": \"John\",\n    \"age\": 22\n  }]\n}"
+    },
+    {
+      "id": "tjUo",
+      "identifier": "/Users/cycle263/other/myProject/gitproject/webpack4_config/node_modules/babel-loader/lib/index.js??ref--4!/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 15,
+      "size": 1235,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 51,
+        "building": 220
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "/Users/cycle263/other/myProject/gitproject/webpack4_config/src/index.js",
+          "loc": "index"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "'use strict';\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = require('react-dom');\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _reactRouterDom = require('react-router-dom');\n\nvar _jquery = require('jquery');\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _app = require('./component/app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nvar _first = require('./component/first');\n\nvar _first2 = _interopRequireDefault(_first);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log('' + process.env.WEBPACK_ENV);\n_reactDom2.default.render(_react2.default.createElement(\n  _reactRouterDom.BrowserRouter,\n  { basename: process.env.WEBPACK_ENV === 'production' ? '/webpack4_config/dist' : null },\n  _react2.default.createElement(\n    _reactRouterDom.Switch,\n    null,\n    _react2.default.createElement(_reactRouterDom.Route, { path: '/index', component: _app2.default }),\n    _react2.default.createElement(_reactRouterDom.Route, { path: '/first', component: _first2.default }),\n    _react2.default.createElement(_reactRouterDom.Redirect, { from: '/', to: '/index' })\n  )\n), document.getElementById('react-content'));"
+    }
+  ],
+  "filteredModules": 0
+}

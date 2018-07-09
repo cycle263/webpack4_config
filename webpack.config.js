@@ -6,7 +6,6 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const merge = require("webpack-merge");
 const env = process.env.WEBPACK_ENV;
-console.log('environment: ', env);
 
 module.exports = merge(baseConfig, {
 	output: {
