@@ -55,7 +55,7 @@ module.exports = {
         "hash:[hash], chunkhash:[chunkhash], name:[name], filebase:[filebase], query:[query], file:[file] -- by Cycle"
     }),
     new webpack.DefinePlugin({
-      'process.env.WEBPACK_ENV': JSON.stringify(env || 'production'),
+      'process.env.WEBPACK_ENV': JSON.stringify(env || 'production'), // webpack4默认注入了NODE_ENV
       'VERSION': pkg.version
     }),
     new webpack.HashedModuleIdsPlugin(),  // 根据模块的相对路径生成一个四位数的hash作为模块id
