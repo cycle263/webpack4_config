@@ -20,7 +20,7 @@ module.exports = merge(baseConfig, {
 			chunks: "all",
 		},
 		runtimeChunk: {
-			name: "manifest"
+			name: "manifest"	// webpack模块依赖的初始化代码和依赖关系的hash映射
 		},
 	},
 	plugins: [
