@@ -49,7 +49,7 @@ module.exports = {
     }]
   },
   plugins: [
-    new ExtractTextPlugin('[name]-style.[hash:5].css'),
+    new ExtractTextPlugin('[name]-style.[chunkhash:5].css'),
     new webpack.BannerPlugin({
       banner:
         "hash:[hash], chunkhash:[chunkhash], name:[name], filebase:[filebase], query:[query], file:[file] -- by Cycle"
