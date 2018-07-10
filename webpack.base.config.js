@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 const pkg = require('./package.json'); // 引入package.json
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const BuildFilePlugin = require('build-file-plugin');
+const BuildFilePlugin = require('./build-file-plugin');
 const env = process.env.WEBPACK_ENV;
 
 module.exports = {
