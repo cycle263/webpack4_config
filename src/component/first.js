@@ -1,9 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { base } from '../assets/datas/app.json';
+import Loadable from 'react-loadable';
 import map from 'imagesPath/map.jpg'; // images 为别名config中的alias
 import file from 'imagesPath/img.png';
 import './app.less';
+
+const LoadEchart = Loadable({
+  loader: () => import(/* webpackChunkName: "echart" */ "echart")
+});
 
 class First extends React.Component {
   constructor(props) {
@@ -23,6 +28,7 @@ class First extends React.Component {
         </ul>
         <div className="test">Hello, First!</div>
         {this.generateList()}
+        {LoadEchart}
       </div>
     )
   }

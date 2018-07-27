@@ -10,8 +10,12 @@ class App extends React.Component{
     super(props);
   }
 
+  handleAsync() {
+    
+  }
+
   generateList() {
-    return base.map(item => <p key={item.name}>{item.name}: {item.age}</p>);
+    return base.map(item => <p key={item.name} onClick={this.handleAsync.bind(this)}>{item.name}: {item.age}</p>);
   }
 
   render() {

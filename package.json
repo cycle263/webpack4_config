@@ -16,7 +16,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "build-file-plugin": "^1.0.5",
     "clean-webpack-plugin": "^0.1.19",
@@ -33,14 +33,17 @@
     "url-loader": "^1.0.1",
     "webp-loader": "^0.4.0",
     "webpack": "^4.6.0",
+    "webpack-bundle-analyzer": "^2.13.1",
     "webpack-cli": "^2.0.14",
     "webpack-dev-server": "^3.1.3",
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
+    "echart": "^0.1.3",
     "jquery": "^3.3.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-loadable": "^5.4.0",
     "react-router-dom": "^4.2.2"
   }
 }
