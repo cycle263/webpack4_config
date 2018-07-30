@@ -7,7 +7,8 @@ import file from 'imagesPath/img.png';
 import './app.less';
 
 const LoadEchart = Loadable({
-  loader: () => import(/* webpackChunkName: "echart" */ "echart")
+  loader: () => import(/* "lodash" */ "lodash"),
+  loading: 'Loading...'
 });
 
 class First extends React.Component {

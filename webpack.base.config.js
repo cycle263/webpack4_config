@@ -26,12 +26,21 @@ module.exports = {
   },
   module: {
     rules: [{
+      test: /\.(ts|tsx)$/,
+      exclude: /node_modules/,
+      loader: 'ts-loader'
+    }, {
       test: /\.(js|jsx)$/,
       exclude: /node_modules/,
       loader: 'babel-loader',
       options: {
-        presets: ['env', 'react', 'latest']
+        presets: ['env', 'react', 'latest'],
+        plugins: ["dynamic-import-node"]
       }
+    }, {
+      test: /\.js$/,
+      use: ["source-map-loader"],
+      enforce: "pre"
     }, {
       test: /\.(less|css)$/,
       use: ExtractTextPlugin.extract({
